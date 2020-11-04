@@ -1,0 +1,15 @@
+{
+	"name": "QA-code-template",
+	"semi": false,
+	"singleQuote": true,
+	"useTabs": true,
+	"tabWidth": 4,
+	"bracketSpacing": true,
+	"arrowParens": "avoid",
+	"trailingComma": "es5",
+	"printWidth": 120,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": false,
+	"editor.formatOnPaste": false,
+	"proseWrap": "always"
+}

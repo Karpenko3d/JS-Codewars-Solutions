@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"test": "mocha"
+	},
+	"dependencies": {
+		"jquery": "^3.5.1",
+		"jquery-assert": "^1.0.2"
+	}
+}
