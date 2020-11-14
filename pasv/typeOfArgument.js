@@ -22,7 +22,7 @@ function typeOfArgument(value) {
 	}
 }
 
-console.log(typeOfArgument(5)) //? number
-console.log(typeOfArgument('hello')) //? string
-console.log(typeOfArgument(true)) //? boolean
-console.log(typeOfArgument(null)) //? object
+console.log(typeOfArgument(5)) // number
+console.log(typeOfArgument('hello')) // string
+console.log(typeOfArgument(true)) // boolean
+console.log(typeOfArgument(null)) // object
