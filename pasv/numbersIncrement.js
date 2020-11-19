@@ -12,24 +12,23 @@ Examples:
 */
 
 function numbersIncrement(value) {
-    if(typeof value === 'number') {
-        return ++value
-     } else if (typeof value === 'string') {
-         return 'It is not a number'
-
-     } else if (typeof value === Infinity) {
-         return 'Infinity'
-     } else if (typeof value === -Infinity) {
-         return '-Infinity'
-     } else if (typeof value === NaN) {
-         return NaN
-     } else {
-         return typeof value
-     }
+	if (typeof value === 'number') {
+		return ++value
+	} else if (typeof value === 'string') {
+		return 'It is not a number'
+	} else if (typeof value === Infinity) {
+		return 'Infinity'
+	} else if (typeof value === -Infinity) {
+		return '-Infinity'
+	} else if (typeof value === NaN) {
+		return NaN
+	} else {
+		return typeof value
+	}
 }
 
 console.log(numbersIncrement(5)) // 6
 console.log(numbersIncrement('abcd')) // It is not a number
-console.log(numbersIncrement(Infinity)) // Infinity    
+console.log(numbersIncrement(Infinity)) // Infinity
 console.log(numbersIncrement(-Infinity)) // -Infinity
-console.log(numbersIncrement(NaN)) // NaN   
+console.log(numbersIncrement(NaN)) // NaN
